@@ -25,7 +25,7 @@ const DataMainProducts = () => {
         {products.map((p) => {
             return(
                 <div key={p.id}>
-                    <MainProducts img={p.imagen} nombre={p.nombre} descripcion={p.descripcion} precio={p.precio} />
+                    <MainProducts imagen={p.imagen} nombre={p.nombre} descripcion={p.descripcion} precio={p.precio} />
                 </div>
             )
         })}
