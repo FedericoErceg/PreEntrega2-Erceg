@@ -22,7 +22,7 @@ const Navbar = ({ img }) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/Filamentos">Filametos</Link>
+              <Link className="nav-link active" to="/Filamentos">Filametos</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" to="/Impresoras3D">Impresoras 3D</Link>
