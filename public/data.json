@@ -1,69 +1,69 @@
 [
   {
-    "imagen": "../src/Components/img/PLAblanco.jpg",
+    "imagen": "/img/PLAblanco.jpg",
     "nombre": "PLA Grilon3 Blanco",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Blanco'. ",
     "precio": 1500,
     "id": 1
   },
   {
-    "imagen": "../src/Components/img/PLAnegro.jpg",
+    "imagen": "/img/PLAnegro.jpg",
     "nombre": "PLA Grilon3 Negro",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Negro'. ",
     "precio": 2500,
     "id": 2
   },
   {
-    "imagen": "../src/Components/img/PLAzulprusia.jpg",
+    "imagen": "/img/PLAzulprusia.jpg",
     "nombre": "PLA Grilon3 Azul de Prusia",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Azul de Prusia'. ",
     "precio": 3500,
     "id": 3
   },
   {
-    "imagen": "../src/Components/img/PLAamarillo.jpg",
+    "imagen": "/img/PLAamarillo.jpg",
     "nombre": "PLA Grilon3 Amarillo",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Amarillo'. ",
     "precio": 4500,
     "id": 4
   },
   {
-    "imagen": "../src/Components/img/PLAceleste.jpg",
+    "imagen": "/img/PLAceleste.jpg",
     "nombre": "PLA Grilon3 Celeste",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Celeste'. ",
     "precio": 5500,
     "id": 5
   },
   {
-    "imagen": "../src/Components/img/PLAnaranja.jpg",
+    "imagen": "/img/PLAnaranja.jpg",
     "nombre": "PLA Grilon3 Naranja",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Naranja'. ",
     "precio": 6000,
     "id": 6
   },
   {
-    "imagen": "../src/Components/img/PLApiel.jpg",
+    "imagen": "/img/PLApiel.jpg",
     "nombre": "PLA Grilon3 Piel",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Piel'. ",
     "precio": 15000,
     "id": 7
   },
   {
-    "imagen": "../src/Components/img/PLArojo.jpg",
+    "imagen": "/img/PLArojo.jpg",
     "nombre": "PLA Grilon3 Rojo",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Rojo'. ",
     "precio": 8800,
     "id": 8
   },
   {
-    "imagen": "../src/Components/img/PLAvioleta.jpg",
+    "imagen": "/img/PLAvioleta.jpg",
     "nombre": "PLA Grilon3 Violeta",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Violeta'. ",
     "precio": 20000,
     "id": 9
   },
   {
-    "imagen": "../src/Components/img/PLArosa.jpg",
+    "imagen": "/img/PLArosa.jpg",
     "nombre": "PLA Grilon3 Rosa",
     "descripcion": "Riel de materias plastico PLA para impresion 3D de 'NTH Grilon 3 de color Rosa'. ",
     "precio": 10000,

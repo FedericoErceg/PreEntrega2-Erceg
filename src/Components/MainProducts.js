@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-const MainProducts = ({ img, nombre, descripcion, precio }) => {
+const MainProducts = ({ imagen, nombre, descripcion, precio }) => {
+    
   const [contador, setContador] = useState(0);
   const sumar = () => {
     setContador(contador + 1);
@@ -14,7 +15,7 @@ const MainProducts = ({ img, nombre, descripcion, precio }) => {
   return (
     <div className="col">
       <div className="card" style={{ width: "18rem" }}>
-        <img src={img} />
+        <img src={imagen} />
         <div className="card-body">
           <h5>{nombre}</h5>
           <p>{descripcion}</p>
