@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.Persona1.jsx
+.Persona2.jsx
+.PersonajesContainer.jsx
+.Props.jsx
+.PropsEspeciales.jsx
+.Info.jsx
+.Hook3.jsx
+.Contador.jsx
+/Custom
