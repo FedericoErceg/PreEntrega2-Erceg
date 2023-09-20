@@ -7,8 +7,8 @@ const Error = () => {
     }
   return (
     <div>
-        <h1 style={fontStyle}><b>Error 404</b></h1>
-        <h2 style={fontStyle}>Not found</h2>
+        <h1 className='text-center' style={fontStyle}><b>Error 404</b></h1>
+        <h2 className='text-center' style={fontStyle}>Not found</h2>
     </div>
   )
 }
