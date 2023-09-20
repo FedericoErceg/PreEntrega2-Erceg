@@ -1,5 +1,6 @@
 import React from 'react';
 import CartWidget from './CartWidget';
+import {Link} from 'react-router-dom'
 
 
 const Navbar = ({ img }) => {
@@ -12,28 +13,28 @@ const Navbar = ({ img }) => {
   return (
     <nav className="navbar navbar-expand-lg" style={{backgroundColor:'#788199'}}>
       <div className="container-fluid">
-        <a className="navbar-brand" href="./index.html">
+        <Link className="navbar-brand" to="/">
         <img src={img} alt="" style={logoStyle} />
-        </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Productos</a>
+              <Link className="nav-link active" aria-current="page" to="/Filamentos">Filametos</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Detalle</a>
+              <Link className="nav-link active" to="/Impresoras3D">Impresoras 3D</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Ver carrito</a>
+              <Link className="nav-link active" to="/Carrito">Ver carrito</Link> 
             </li>
           </ul>
         </div>
       </div>
       <div className='me-4'>
-        <CartWidget />
+        <Link to='/Carrito'> <CartWidget /> </Link>
       </div>
     </nav>
   );

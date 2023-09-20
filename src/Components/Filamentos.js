@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import MainProducts from './MainProducts';
 
-const DataMainProducts = () => {
+const Filamentos = () => {
 
     const[products, setProducts] = useState([]);
 
@@ -19,7 +19,6 @@ const DataMainProducts = () => {
     }, []);
     
 
-
   return (
     <div className='row'>
         {products.map((p) => {
@@ -35,4 +34,4 @@ const DataMainProducts = () => {
   )
 }
 
-export default DataMainProducts
+export default Filamentos

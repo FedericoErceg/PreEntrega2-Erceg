@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
 const MainProducts = ({ imagen, nombre, descripcion, precio }) => {
     
@@ -21,21 +22,21 @@ const MainProducts = ({ imagen, nombre, descripcion, precio }) => {
           <p>{descripcion}</p>
           <h5>Precio: ${precio}</h5>
           <div className="row my-3 g-2">
-            <a className="col">
+            <Link to='/' className="col">
               <button className="btn btn-primary" onClick={sumar}>
                 Agregar al carrito
               </button>
-            </a>
-            <a className="col">
+            </Link>
+            <Link to='/' className="col">
               <button className="btn btn-primary" onClick={restar}>
                 Quitar del carrito
               </button>
-            </a>
-            <a className="col">
+            </Link>
+            <Link to='/' className="col">
               <button className="btn btn-primary" onClick={eliminar}>
                 Eliminar del carrito
               </button>
-            </a>
+            </Link>
           </div>
           <h5>agregador al carrito: {contador}</h5>
         </div>
