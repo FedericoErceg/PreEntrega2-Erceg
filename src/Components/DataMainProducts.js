@@ -8,10 +8,9 @@ const DataMainProducts = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('../data.json');
+                const response = await fetch('../public/data.json');
                 const json = await response.json();
-                const filterData = json.filter(product => product.condition === 'new');
-                setProducts(filterData);
+                setProducts(json);
             } catch (error) {
                 console.log('Error: ' + error);
             }
