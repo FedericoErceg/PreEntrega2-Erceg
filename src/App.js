@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import ItemListContainer from './Components/ItemListContainer';
 import DataMainProducts from './Components/DataMainProducts';
-import logo from './img/piexelmdq.jpeg';
+import logo from './ImgComponets/piexelmdq.jpeg';
 
 function App() {
   return (

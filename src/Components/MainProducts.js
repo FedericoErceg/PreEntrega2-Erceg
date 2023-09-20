@@ -14,24 +14,24 @@ const MainProducts = ({ imagen, nombre, descripcion, precio }) => {
   };
   return (
     <div className="col">
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "29rem" }}>
         <img src={imagen} />
         <div className="card-body">
           <h5>{nombre}</h5>
           <p>{descripcion}</p>
-          <h5>Precio: {precio}</h5>
-          <div className="my-3">
-            <a className="me-2">
+          <h5>Precio: ${precio}</h5>
+          <div className="row my-3 g-2">
+            <a className="col">
               <button className="btn btn-primary" onClick={sumar}>
                 Agregar al carrito
               </button>
             </a>
-            <a className="ms-2">
+            <a className="col">
               <button className="btn btn-primary" onClick={restar}>
                 Quitar del carrito
               </button>
             </a>
-            <a className="ms-2">
+            <a className="col">
               <button className="btn btn-primary" onClick={eliminar}>
                 Eliminar del carrito
               </button>
