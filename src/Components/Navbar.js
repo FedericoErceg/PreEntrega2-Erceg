@@ -13,7 +13,7 @@ const Navbar = ({ img }) => {
   return (
     <nav className="navbar navbar-expand-lg" style={{backgroundColor:'#788199'}}>
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/ItemListContainer">
         <img src={img} alt="" style={logoStyle} />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

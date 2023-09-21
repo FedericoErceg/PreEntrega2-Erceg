@@ -15,13 +15,13 @@ function App() {
       <BrowserRouter>
         <Navbar img={logo}/>
         <Routes>
-          <Route path='/Filamentos' element={Filamentos} />
-          <Route path='/Impresoras3D' element={Impresoras3D} />
-          <Route path='/Carrito' element={Carrito} />
-          <Route path='*' element={Error} />
+          <Route path='/ItemListContainer' element={<ItemListContainer negocio={'PixelMDQ3D'}/>} />
+          <Route path='/Filamentos' element={<Filamentos/>} />
+          <Route path='/Impresoras3D' element={<Impresoras3D/>} />
+          <Route path='/Carrito' element={<Carrito/>} />
+          <Route path='*' element={<Error/>} />
         </Routes>
       </BrowserRouter>
-      <ItemListContainer negocio={'PixelMDQ3D'}/>
     </div>
   );
 }
